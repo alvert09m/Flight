@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Flight</title>
+    <!--settings-->
+    <meta name="viewport" content="width=device-width, initial-scale =1" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--icon header-->
+    <link rel="icon" type="image/ico" href="..\booking\image\flight1.PNG" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="booking.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="navi">
+        <nav>
+            <h1 class="home">
+                <a href="home.html"><img class="flightfont" src="../booking/image/flight2.PNG"></a>
+            </h1>
+            <ul>
+                <li><a class="options1" href="Pre-search.html">LOOK FOR FLIGHT</a></li>
+                <li><a class="options1" href="MyFlights.html">MY FLIGHT</a></li>
+                <li><a class="options1" href="#">ACCOUNT</a></li>
+                <li><a class="options1" href="Abouts.html">ABOUTS</a></li>
+                <li><a class="options1" href="Login.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="searched">
+        <div class="aflightsbox">
+            <label class="aflights">Available Flights</label>
+            <div class="headsearch">
+                <label class="headsearch1">Airlines</label>
+                <label class="headsearch2">Time</label>
+                <label class="headsearch3">Duration</label>
+                <label class="headsearch4">Date</label>
+                <label class="headsearch5">Going</label>
+                <label class="headsearch6">Cost</label>
+            </div>
+            <div class="searchicon"></div>
+            
+        </div>
+    </div>
+
+    <div class="searchedopt">
+        <div class="from2">
+            <form class="form-inline">
+                <label class="passenger1" for="inlineFormCustomSelectPref">From</label>
+                <select class="custom-select1 my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">Manila MNL</option>
+                    <option value="2">Australia AUS</option>
+                    <option value="3">Bahrain BHR</option>
+                    <option value="4">Macao MAC</option>
+
+                </select>
+            </form>
+        </div>
+        <div class="To2">
+            <form class="form-inline">
+                <label class="passenger1" for="inlineFormCustomSelectPref">To</label>
+                <select class="custom-select1 my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">Macao MAC</option>
+                    <option value="2">Australia AUS</option>
+                    <option value="3">Bahrain BHR</option>
+                    <option value="4">Manila MNL</option>
+
+                </select>
+            </form>
+        </div>
+        <div class="trips2">
+            <form class="form-inline">
+                <label class="passenger1" for="inlineFormCustomSelectPref">Trip</label>
+                <select class="custom-select1 my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">One Way</option>
+                    <option value="2">Round Trip</option>
+
+                </select>
+            </form>
+        </div>
+        <div class="passengers2">
+            <form class="form-inline">
+                <label class="passenger1" for="inlineFormCustomSelectPref">Passenger</label>
+                <select class="custom-select1 my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+
+                </select>
+            </form>
+        </div>
+        <div class="class2">
+            <form class="form-inline">
+                <label class="passenger1" for="inlineFormCustomSelectPref">Class</label>
+                <select class="custom-select1    my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">Economy</option>
+                    <option value="2">Business</option>
+                    <option value="3">First Class</option>
+
+                </select>
+            </form>
+        </div>
+        <div class="datepicker3">
+            <label class="datetext">Departure Date</label>
+            <input class="date1" type="date" name="">
+        </div>
+        <div class="searchflight1">
+            <a href="Search.html"><input type="submit" name="" value="Search"></a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
